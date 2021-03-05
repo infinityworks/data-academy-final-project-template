@@ -1,5 +1,5 @@
 {
-  "name": "IW Example Dev Container",
+  "name": "Final Project Dev Container",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash",
   },
