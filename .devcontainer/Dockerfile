@@ -98,6 +98,10 @@ RUN apt-get install -y apt-utils groff
 RUN sudo apt-get update -y
 RUN sudo apt-get upgrade -y
 RUN sudo apt-get install python3-venv -y
+RUN sudo apt-get install python3-pip -y
+# Install psycopg2 for the prostgrsql database and dotenv
+RUN pip3 install psycopg2-binary
+RUN pip3 install python-dotenv
     #
     # Clean up
     #
